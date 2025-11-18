@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ArrowDownCircle } from "lucide-react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -44,6 +45,17 @@ const Hero = () => {
           </div>
         </a>
       </div>
+                {/* Modern Scroll Button */}
+  <button 
+    className="scroll-btn-modern"
+    onClick={() => {
+      document.getElementById('about-section').scrollIntoView({
+        behavior: 'smooth'
+      });
+    }}
+  >
+   <ArrowDownCircle className="icon-glow" />
+  </button>
     </section>
   );
 };
