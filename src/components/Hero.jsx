@@ -44,8 +44,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
-                {/* Modern Scroll Button */}
+                        {/* Modern Scroll Button */}
   <button 
     className="scroll-btn-modern"
     onClick={() => {
@@ -54,8 +53,11 @@ const Hero = () => {
       });
     }}
   >
-   <ArrowDownCircle className="icon-glow" />
+    <ArrowDownCircle className="icon-glow" />
+
   </button>
+      </div>
+
     </section>
   );
 };
