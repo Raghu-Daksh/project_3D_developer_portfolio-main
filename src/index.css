@@ -203,19 +203,10 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
 .scroll-btn-modern {
-  position: absolute;
+  position: fixed;
   right: 38px;
-  bottom: 45px;
+  bottom: 15px;
   width: 62px;
   height: 62px;
   border-radius: 50%;
