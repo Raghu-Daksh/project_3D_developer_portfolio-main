@@ -3,6 +3,7 @@ import { ArrowDownCircle } from "lucide-react";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Skills from "./components/Skills";
+import ScrollButton from "./components/ScrollButton";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
-                <button 
+          <ScrollButton />
+                {/* <button 
           className="scroll-btn-modern"
           onClick={() => {
             document.getElementById('about-section').scrollIntoView({
@@ -20,7 +22,7 @@ const App = () => {
           }}
         >
           <ArrowDownCircle className="icon-glow" />
-      </button>
+      </button> */}
         </div>
         <About />
         <Experience />
