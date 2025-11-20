@@ -294,7 +294,7 @@ const projects = [
     { name: "ecommerce-ui", color: "pink-text-gradient" },
   ],
   image: ecommerce,     // your project image import
-  source_code_link: "https://aesthetic-pithivier-29cf18.netlify.app/",   // add your GitHub link
+  source_code_link: "https://keshav-payal.onrender.com",   // add your GitHub link
 }
 
 
